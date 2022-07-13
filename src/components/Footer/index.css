@@ -1,0 +1,49 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  background: rgb(118, 118, 118);
+  color: white;
+  cursor: pointer;
+  border-radius: 80px;
+  border: none;
+  box-shadow: 0 5px 5px #ccc;
+  height: 40px;
+}
+
+.back-to-top:hover {
+  background: red;
+}
+
+/* Just some color boxes to make the page longer */
+.box {
+  width: 100%;
+  height: 80vh;
+  margin: 20px 0;
+}
+
+
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  background: rgb(228, 223, 223);
+  box-shadow: 0 5px 5px #ccc;
+  height: 40px;
+}
+.footer-head {
+  position: absolute;
+  width: 242px;
+  height: 46px;
+  left: 167px;
+
+  display: flex;
+  align-items: center;
+
+  /* #2F2F2F */
+
+  color: #2f2f2f;
+}

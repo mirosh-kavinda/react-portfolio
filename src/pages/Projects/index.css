@@ -1,0 +1,71 @@
+.project {
+  position: absolute;
+  width: 1110px;
+  height: 760px;
+  left: 165px;
+  top: 116px;
+}
+.collapse.in {
+  min-height: 50px;
+  border: 1px solid blue;
+}
+
+.web-design {
+  position: absolute;
+  width: 1110px;
+  height: 1340px;
+ 
+}
+.web-design-img1 {
+  position: absolute;
+}
+
+.web-design-img2 {
+  position: absolute;
+  width: 1110px;
+  height: 480px;
+  top: 666px;
+}
+
+.contact-me {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1110px;
+  height: 224px;
+  top: 1556px;
+  bottom: 1000px;
+  /* #EEBF63 */
+
+  background: #eebf63;
+  border-radius: 25px;
+}
+.contact-me-head {
+  position: absolute;
+  width: 250px;
+  height: 190px;
+  top: 20px;
+
+  /* Heading 1 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  /* or 129% */
+
+  /* #FFFFFF */
+
+  color: #ffffff;
+}
+.contact-me-btn {
+  /* Button 2 */
+
+  position: absolute;
+  width: 259px;
+  height: 70px;
+  
+ 
+
+}

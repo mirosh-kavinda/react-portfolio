@@ -1,0 +1,14 @@
+body {
+  margin: 10px;
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    /* or 250% */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Poppins',
+    monospace;
+}
