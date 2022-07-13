@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://mirosh-kavinda.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -37,6 +37,7 @@
       "not dead",
       "not op_mini all"
     ],
+    
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
