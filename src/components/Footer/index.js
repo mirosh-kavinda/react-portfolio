@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
-
+import {
+  AiOutlineInstagram,
+  AiOutlineYoutube,
+  AiOutlineTwitter,
+  AiOutlineLinkedin,
+  AiOutlineArrowUp
+} from "react-icons/ai";
 const Footer = () => {
   const [showButton, setShowButton] = useState(false);
   useEffect(
@@ -29,13 +35,18 @@ const Footer = () => {
       <div>
         {showButton && (
           <div className="footer">
-            <h4 className="footter-head">Let's Connect</h4>
+            <div>
+              {/* <p className="footter-head">c 2022 MIrosh  All Right Reserved </p> */}
+              <AiOutlineInstagram />
+              <AiOutlineYoutube />
+              <AiOutlineTwitter />
+              <AiOutlineLinkedin />
+            </div>
           </div>
         )}
-
         {showButton && (
           <button onClick={scrollToTop} className="back-to-top">
-            &#8679;
+            Back to Top<AiOutlineArrowUp/>
           </button>
         )}
       </div>

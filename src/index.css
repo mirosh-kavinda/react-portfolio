@@ -1,14 +1,23 @@
-body {
-  margin: 10px;
-  font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 45px;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body,html{
+  
+  margin: 97px;
+  padding: auto;
+  font-family: 'Open Sans', sans-serif;
+background-color: black;
+color:white;
+margin: 100 100 100 100;
     /* or 250% */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Poppins',
-    monospace;
+
+img:hover,a:hover{
+border-bottom: #e3874f;
+  color: #e3874f!important;
+}
+
+h6{
+  letter-spacing: 0.31rem;
 }
