@@ -2,9 +2,7 @@ import React from "react";
 import image1 from "../../images/about-image1.png";
 import image2 from "../../images/about-image3.png";
 import "./index.css";
-import image3 from '../../images/contact-image1.png';
-
-
+import Contact from "../Contact/index";
 class About extends React.Component {
   render() {
     return (
@@ -21,11 +19,10 @@ class About extends React.Component {
               <p>Tools & Skills</p>
             </div>
             <img src={image1} alt="image1" className="intro-image" />
-            <img src={image2} alt="image3" className="content3-image" />
+            <img src={image2} alt="image3" className="content2-image" />
           </div>
-          <div className="contact-content">
-          
-            <img src={image3} className="contact-img123" alt="fff" />
+          <div className="contact">
+            <Contact />
           </div>
         </div>
       </>

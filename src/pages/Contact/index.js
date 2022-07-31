@@ -7,7 +7,6 @@ class Contact extends React.Component {
     return (
       <>
         <div className="contact-content">
-          <h1>Let's be friend !</h1>
           <img src={image1} className="contact-img123" alt="fff" />
         </div>
       </>

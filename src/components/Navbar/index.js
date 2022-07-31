@@ -4,14 +4,12 @@ import {AiOutlinePhone } from 'react-icons/ai';
 
 
 const Navbar = () => {
-  
-  
   return (
     <>
 
-      <nav className="navbar navbar-dark bg-black navbar-expand-lg  fixed-top mx-5  ">
-        <div className="container-fluid">
-          <a className="navbar-brand ms pa-2" href="/">
+      <nav className="navbar navbar-dark bg-black navbar-expand-lg  fixed-top  ">
+        <div className="container-fluid  ">
+          <a className="navbar-brand ms pa-2 mx-4" href="/">
            <img  src={brandImg} alt='brand logo'/>
           </a>
           <button
@@ -23,10 +21,10 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon "></span>
           </button>
         </div>
-        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse mx-5" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
             <a className="nav-link is-active exact  "  aria-current="page" href="/">
              <h6> Home</h6>

@@ -1,7 +1,7 @@
 .back-to-top {
   position: fixed;
   bottom: 0px;
-  right: 30px;
+  right: 40px;
   font-size: 16px;
 font-weight: 800;
   cursor: pointer;
@@ -25,7 +25,7 @@ font-weight: 800;
 }
 .footer-head {
   position: absolute; 
-left: 10.4%;
+left: 40px;
 right: 62.34%;
 top: 30.17%;
 bottom: 38.79%;
