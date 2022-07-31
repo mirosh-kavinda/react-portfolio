@@ -24,7 +24,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon "></span>
           </button>
         </div>
-        <div className="collapse navbar-collapse mx-5" id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse mx-4" id="navbarNavAltMarkup">
           <div className="navbar-nav ml-auto">
             <a className="nav-link is-active exact  "  aria-current="page" href="/">
              <h6> Home</h6>
